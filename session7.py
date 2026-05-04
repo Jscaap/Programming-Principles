@@ -65,7 +65,10 @@ print(musician)
 
 # returning a dictionary
 def build_person(first_name, last_name, age=None):
-    person = {"first: first_name", "last: last_name"}
+    person = {
+        "first": first_name, 
+        "last" : last_name
+        }
     if age:
         person["age"] = age
     return person
@@ -75,6 +78,9 @@ print(musician)
 
 
 # function with a while loop
+def get_formatted_name(first_name, last_name):
+    return f"{first_name} {last_name}"
+
 while True:
     print("Please tell me your name, Enter 'q' at any time to quit:")
     
