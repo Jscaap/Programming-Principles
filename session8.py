@@ -138,7 +138,7 @@ class Kid(Person):
     def play(self):
         print("The kids play with toys")
         
-# create a instance of Dog
+# create a instance of Person
 my_kid = Kid()
 my_kid.speak() # inherited from Person
 my_kid.play() # defined in Kid
